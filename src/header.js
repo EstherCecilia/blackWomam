@@ -2,12 +2,19 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div>
-      {" "}
+    <div
+      style={{
+        textAlign: "center",
+        display: "flex",
+        alignItems: "center",
+        backgroundColor: "#5e5b5bf0",
+      }}
+    >
       <img
-        style={{ width: "100%" }}
-        src="https://meudiariodecosmeticanatural.com/wp-content/uploads/2019/10/Disen%CC%83o-sin-ti%CC%81tulo-5-e1571004480144-1024x120.png"
-      />{" "}
+        style={{ width: "9.5em" }}
+        src="https://i1.wp.com/encontronacionalmulheresnegras.org/wp-content/uploads/2018/11/icone.png?w=580"
+      />
+      <p style={{ fontSize: "3.5em", margin: "auto" }}>NEGRITUDE</p>
     </div>
   );
 }

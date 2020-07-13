@@ -75,10 +75,10 @@ export default function TemporaryDrawer() {
   return (
     <div className={classes.app}>
       <Button
-        style={{ position: "absolute" }}
+        style={{ position: "absolute", right: "0" }}
         onClick={toggleDrawer("right", true)}
       >
-        <MenuIcon />
+        <MenuIcon style={{ fontSize: "2.5em" }} />
       </Button>
       <Header />
 

@@ -44,8 +44,10 @@ export default function Portifolio() {
 
   const handlePage = (tipo) => {
     if (tipo === "ant") {
+      if (page === 0) return;
       setPage(page - 1);
     } else {
+      if (page === data.length - 1) return;
       setPage(page + 1);
     }
   };
